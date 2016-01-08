@@ -115,7 +115,7 @@ void MainWindow::writeReport()
 
   if(laplacianCalculation)
   {
-    QFile file1("Result/" + name + ".dat");
+    QFile file1(name +".dat");
     file1.open(QIODevice::WriteOnly | QIODevice::Text);
     QTextStream out(&file1);
     qSort(array.begin(), array.end());
@@ -128,7 +128,7 @@ void MainWindow::writeReport()
 
   QMap<int, int> degreeDistribution = manet->getDegreeDistribution();
 
-  QFile file2("Result/Report-" + name + ".dat");
+  QFile file2("Report-" + name + ".dat");
   file2.open(QIODevice::WriteOnly | QIODevice::Text);
   QTextStream out2(&file2);
 

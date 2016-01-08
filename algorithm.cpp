@@ -112,7 +112,7 @@ void Algorithm::antiLaplacianNormalizedAlgorithm()
 void Algorithm::setNodeMsg(NodeItem* n)
 {
   n->getNode()->setMsg(true);
-  n->setPixmap(QPixmap("blue.png"));
+  n->setPixmap(QPixmap("./images/blue.png"));
 }
 
 void Algorithm::setNodeMsg(Node* node)
@@ -128,5 +128,5 @@ void Algorithm::setNodeMsg(Node* node)
   }
 
   node->setMsg(true);
-  nn->setPixmap(QPixmap("blue.png"));
+  nn->setPixmap(QPixmap("./images/blue.png"));
 }

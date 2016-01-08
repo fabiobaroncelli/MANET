@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/qt-logo.png</file>
+        <file>images/tel_cellular.png</file>
+        <file>images/hub.png</file>
+        <file>images/bus.png</file>
+        <file>images/car.gif</file>
+        <file>images/blue.png</file>
+        <file>images/green.png</file>
+        <file>images/grey.png</file>
+        <file>images/orange.png</file>
+        <file>images/red.png</file>
+    </qresource>
+</RCC>
